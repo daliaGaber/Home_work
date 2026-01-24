@@ -6,6 +6,6 @@ once.
  */
 
 void main() {
-  List<String> names = ['aya', 'dalia', 'dina','dina'];
+  List<String> names = ['aya', 'dalia', 'dina',
   Set<String> Name = names.toSet();
 }
