@@ -6,10 +6,6 @@ once.
  */
 
 void main() {
-  List<String> names = ['aya', 'dalia', 'dina'];
+  List<String> names = ['aya', 'dalia', 'dina','dina'];
   Set<String> Name = names.toSet();
-
-
-  Map
-
 }
