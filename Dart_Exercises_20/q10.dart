@@ -11,7 +11,9 @@ void main() {
   };
   print(countryCodes['EG']);
   countryCodes['QA'] = 'Qatar';
-  print(countryCodes.length);
+  //print(countryCodes.length);
+  //print(countryCodes.entries);
+  print(countryCodes.entries.length);
   if (countryCodes.containsKey('JO')) {
     print('Jordan exist');
   } else {
