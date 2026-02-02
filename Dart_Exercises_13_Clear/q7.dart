@@ -5,10 +5,11 @@ and print the total.
  */
 
 void main() {
-  List<int> scores = [10, 0, 20, 30];
+  List<int> scores = [10, 0, 0, 20, 30];
   if (scores.contains(0)) {
     scores.remove(0);
   }
+  print(scores);
   print(scores);
   int sum = 0;
   for (var item in scores) {

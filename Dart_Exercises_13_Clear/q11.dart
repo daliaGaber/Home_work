@@ -5,7 +5,11 @@ greater than or equal to a'. Print whether the rule is true or false.
  */
 
 void main() {
-  Map<String, int> numbers = {'a': 7, 'b': 7, 'c': 10};
-  bool aB = ((numbers['a'] != numbers['b']) || (numbers['b']! >= numbers['a']!));
+  int a = 7;
+  int b = 7;
+  int c = 10;
+  // Map<String, int> numbers = {'a': 7, 'b': 7, 'c': 10};
+  //bool aB = ((numbers['a'] != numbers['b']) || (numbers['b']! >= numbers['a']!));
+  bool aB = (a != b) || (b >= a);
   print('Is a is not equal to c OR b is greater than or equal to a ? $aB');
 }

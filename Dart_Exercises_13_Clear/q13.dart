@@ -7,7 +7,6 @@ each name appears. Print only the names that appear more than once.
 void main() {
   List<String> names = ['Ali', 'Mona', 'Ali', 'Omar', 'Mona'];
   List<String> appear = [];
-  
 
   for (var item in names) {
     if (appear.contains(item)) {
@@ -19,12 +18,11 @@ void main() {
         count++;
       }
     }
-   
+
     if (count > 1) {
       print('The name $item is Appears $count times');
-    
     }
     appear.add(item);
   }
-
+  //print(appear);
 }
