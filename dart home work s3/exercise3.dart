@@ -8,6 +8,6 @@ void main() {
   print(phrase.length);
   print(phrase.toLowerCase());
   print(phrase.contains('Dart'));
-  String test = ' Dart ';
+  String test = ' Dart m';
   print(test.trim());
 }

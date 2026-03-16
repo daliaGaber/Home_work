@@ -11,4 +11,8 @@ void main() {
   print(animals.first);
   print(animals.last);
   print(animals.length);
+
+  Set<String> animal = {'Dog', 'Cat', 'Dog', 'Ant'};
+  animal.remove('Dog');
+  print(animal);
 }
