@@ -11,6 +11,8 @@ void main() {
 }
 
 class Getlmage_jpeg extends StatelessWidget {
+  const Getlmage_jpeg({super.key});
+
 
   @override
   Widget build(BuildContext context) {

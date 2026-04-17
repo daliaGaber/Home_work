@@ -1,15 +1,22 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(
-    MaterialApp(
-      debugShowCheckedModeBanner: false,
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      //debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Color(0xFF0A0E21), 
         appBar: AppBar(
-          title: Text("BMI CALCULATOR"),
+          title: Text('BMI CALCULATOR', style: TextStyle(color: Colors.white),textAlign: TextAlign.left,),
           backgroundColor: Color(0xFF0A0E21),
-          centerTitle: true,
+          //centerTitle: true,
         ),
         body: Column(
           children: [
@@ -20,7 +27,7 @@ void main() {
                     child: Container(
                       margin: EdgeInsets.all(15),
                       decoration: BoxDecoration(
-                        color: Color(0xFF1D1E33),
+                        color: Color.fromARGB(61, 58, 58, 58),
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Column(
@@ -166,6 +173,6 @@ void main() {
           ],
         ),
       ),
-    ),
-  );
+    );
+  }
 }
